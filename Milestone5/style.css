@@ -1,0 +1,168 @@
+/* Base styling for body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Light Gray */
+    color: #333333;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Headings and text */
+h1 {
+    color: #2c3e50; /* Dark Slate Blue */
+    text-align: center;
+}
+
+h2, h3 {
+    color: #34495e; /* Muted Navy Blue */
+    border-bottom: 2px solid #bdc3c7; /* Soft Gray */
+    padding-bottom: 5px;
+}
+
+p {
+    color: #4d4d4d;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* Form styling */
+form {
+    background-color: #ffffff; /* White */
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Softer shadow for a modern look */
+    margin-bottom: 20px;
+    max-width: 600px; /* Keep the form medium-sized */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset {
+    border: 1px solid #95a5a6; /* Light Gray-Blue */
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    color: #2980b9; /* Soft Blue */
+    font-weight: bold;
+}
+
+label {
+    color: #2c3e50; /* Dark Slate Blue */
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bdc3c7; /* Soft Gray */
+    border-radius: 4px;
+    background-color: #ecf0f1; /* Light background for input fields */
+    font-size: 1rem;
+    color: #333333;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Button styling */
+button {
+    background-color: #2980b9; /* Muted Blue */
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #1c5984; /* Darker Navy Blue */
+}
+
+/* Resume display area */
+#resume-display {
+    background-color: #ffffff; /* White */
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #bdc3c7; /* Soft Gray border */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Softer shadow */
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Shareable link container */
+#shareable-link-container {
+    display: none;
+    margin-top: 20px;
+    background-color: #f4f6f6; /* Very Light Gray */
+    padding: 15px;
+    border: 1px solid #7f8c8d; /* Muted Gray */
+    border-radius: 8px;
+    text-align: center;
+}
+
+#shareable-link {
+    color: #2980b9; /* Soft Blue */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Shareable link button */
+#shareable-link {
+    background-color: #27ae60; /* Muted Green */
+    color: #ffffff;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#shareable-link:hover {
+    background-color: #1e8449; /* Darker Green */
+    text-decoration: none;
+}
+
+
+#shareable-link:hover {
+    text-decoration: underline;
+}
+
+/* PDF download button */
+#download-pdf {
+    background-color: #27ae60; /* Muted Green */
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+
+#download-pdf:hover {
+    background-color: #1e8449; /* Darker Green */
+}

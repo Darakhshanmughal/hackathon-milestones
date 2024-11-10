@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Left Section Styles */
+.left-section {
+    background-color: #005f73;  /* Dark Blue for the left section */
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-section img.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid white;
+}
+
+.left-section h3 {
+    font-size: 1.5em;
+    color: #ffb703; /* Yellow for heading titles */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.left-section p {
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Right Section Styles */
+.right-section {
+    background-color: #edf6f9;
+    padding: 20px;
+    border-radius: 12px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-section h1 {
+    color: #005f73;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.right-section h3 {
+    font-size: 1.5em;
+    color: #fb8500; /* Orange for heading titles */
+    border-bottom: 2px solid #005f73;
+    margin-bottom: 10px;
+}
+
+.right-section p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Personal Info Styles */
+#personal-info a {
+    color: #1d3557; /* Dark Blue for links */
+    text-decoration: none;
+}
+
+#personal-info a:hover {
+    text-decoration: underline;
+}
+
+/* Experience Section */
+#experience ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+#experience ul li {
+    margin-bottom: 5px;
+}
+
+/* Skills Section and Button at Bottom */
+.skills-container {
+    margin-top: auto;
+    text-align: right;
+}
+
+#skills {
+    display: none;
+}
+
+button {
+    padding: 12px;
+    background-color: #ffb703;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+button:hover {
+    background-color: #fb86005f;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .left-section {
+        width: 35%;
+    }
+    
+    .right-section {
+        width: 65%;
+    }
+}
+
